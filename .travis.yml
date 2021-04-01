@@ -3,7 +3,7 @@ python:
   - "3.8"
 # command to install dependencies
 install:
-  - pip install flask
+  - pip install -r requirements.txt
 # command to run tests
 script:
-  - pylint hello.py
+  - pylint erreur.py
