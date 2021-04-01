@@ -3,12 +3,12 @@
 from flask import Flask
 app = Flask(__name__)
 @app.route('/')
-""" Rien """
 def index():
+    """ Rien """
     return "Hello world !"
 @app.route('/hello/fanina')
-""" Rien """
 def optional():
+    """ Rien """
     return "Hello "
 if __name__ == "__main__":
     app.run()
